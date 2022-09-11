@@ -3,7 +3,7 @@ import javax.persistence.EntityManager;
 
 import com.cg.entities.Student;
 
-public class StudentDaoImpl implements StudentDao 
+public abstract class StudentDaoImpl implements StudentDao 
 {
 	private EntityManager em;
 	public StudentDaoImpl() {

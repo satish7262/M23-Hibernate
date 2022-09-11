@@ -9,7 +9,7 @@ public class StudentServiceImpl implements StudentService{
 	private StudentDao dao;
 	public StudentServiceImpl(){
 		super();
-	dao = new StudentDaoImpl();
+	//dao = new StudentDaoImpl();
 	}
 		
 	@Override
