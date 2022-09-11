@@ -1,4 +1,5 @@
 package com.cg.dao;
+import com.cg.entities.Student;
 
 public interface StudentDao 
 {
@@ -10,7 +11,4 @@ public interface StudentDao
 
 	public abstract void commitTransaction();
 	public abstract void beginTransaction();
-	
 }
-Footer
-© 2022 GitHub, Inc.
